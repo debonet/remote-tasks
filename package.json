@@ -1,0 +1,29 @@
+{
+  "name": "@debonet/remote-tasks",
+  "version": "1.0.0",
+  "description": "Remote execution of tasks on external processes or systems",
+  "main": "src/remote-tasks.js",
+  "scripts": {
+    "test": "jest test/*test*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debonet/remote-tasks.git"
+  },
+  "keywords": [
+    "Remote",
+    "Promise",
+    "RPC",
+    "progress",
+    "Task"
+  ],
+  "author": "Jeremy De Bonet",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/debonet/remote-tasks/issues"
+  },
+  "homepage": "https://github.com/debonet/remote-tasks#readme",
+  "devDependencies": {
+    "jest": "^27.0.1"
+  }
+}
