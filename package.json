@@ -25,5 +25,10 @@
   "homepage": "https://github.com/debonet/remote-tasks#readme",
   "devDependencies": {
     "jest": "^27.0.1"
+  },
+  "dependencies": {
+    "@debonet/bugout": "^1.0.4",
+    "@debonet/es6tasks": "^1.0.0",
+    "@debonet/remote-promises": "^1.0.0"
   }
 }
