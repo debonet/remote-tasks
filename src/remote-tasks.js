@@ -1,9 +1,8 @@
 "use strict";
 
 const { D, I, E } = require ( "@debonet/bugout" );
-//const RemotePromises = require ( "@debonet/remote-promises" );
 const Task = require ( "@debonet/es6tasks" );
-const RemotePromises = require ( "../../remote-promises/src/remote-promises.js" );
+const RemotePromises = require ( "@debonet/remote-promises" );
 
 
 // ===========================================================================
