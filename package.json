@@ -1,6 +1,6 @@
 {
   "name": "@debonet/remote-tasks",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Remote execution of tasks on external processes or systems",
   "main": "src/remote-tasks.js",
   "scripts": {

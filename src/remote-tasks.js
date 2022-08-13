@@ -31,10 +31,11 @@ class RemoteTaskCallerClient extends RemotePromises.CallerClient {
 			self.socket.emit( "do", id, ...vxArgs );
 		});
 	}
-	run = this.fpCall;
-	request = this.fpCall;
-	issue = this.fpCall;
 }
+
+RemoteTaskCallerClient.prototype.run = RemoteTaskCallerClient.prototype.fpCall;
+RemoteTaskCallerClient.prototype.request = RemoteTaskCallerClient.prototype.fpCall;
+RemoteTaskCallerClient.prototype.issue = RemoteTaskCallerClient.prototype.fpCall;
 
 // ===========================================================================
 // Caller class
@@ -66,11 +67,11 @@ class RemoteTaskCallerServer extends RemotePromises.CallerServer {
 			self.fHandleJobs();
 		});
 	}
-	run = this.fpCall;
-	request = this.fpCall;
-	issue = this.fpCall;
 }
 
+RemoteTaskCallerServer.prototype.run = RemoteTaskCallerServer.prototype.fpCall;
+RemoteTaskCallerServer.prototype.request = RemoteTaskCallerServer.prototype.fpCall;
+RemoteTaskCallerServer.prototype.issue = RemoteTaskCallerServer.prototype.fpCall;
 
 // ===========================================================================
 // Function Runner classes
